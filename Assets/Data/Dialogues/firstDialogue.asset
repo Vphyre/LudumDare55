@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436eb30709f01104ebd4f7ecbaa45377, type: 3}
+  m_Name: firstDialogue
+  m_EditorClassIdentifier: 
+  dialogueContent:
+  - characterImage: {fileID: 0}
+    characterName: Ambrose
+    characterSpeech: "QUEM SE ATREVE A ENTRAR NO DOMINO DO GRANDE AMBROSE \u201CO
+      IMORTAL\u201D?"
+  - characterImage: {fileID: 0}
+    characterName: Phinn
+    characterSpeech: "Olha ali mestre! Pelo jeito n\xE3o teremos que enfrentar somente
+      os magos, mas seus aliados tamb\xE9m! Cuidado!"
+  - characterImage: {fileID: 0}
+    characterName: Lazar
+    characterSpeech: "HAHAHAHA! Eu Lazar! Vou derrotar voc\xEAs!"
+  - characterImage: {fileID: 0}
+    characterName: Alatar
+    characterSpeech: "Eita! Esse cara est\xE1 mais pra um LAZARento ! V\xE1 se esconder
+      Phinn, eu cuido disso!"
+  - characterImage: {fileID: 0}
+    characterName: Phinn
+    characterSpeech: "Se prepare Mestre Alatar! S\xE3o monstros elementais, voc\xEA
+      ter\xE1 que lan\xE7ar a magia do elemento deles para poder derrot\xE1-los!
+      Mas parece que ser\xE1 f\xE1cil, as cores indicam o tipo de magia que ser\xE1
+      usada!"
+  - characterImage: {fileID: 0}
+    characterName: Phinn
+    characterSpeech: "Cuidado, magias poderosas em lugares fechados podem fazer tudo
+      desabar ou acertar a gente, espere eles chegarem no lugar certo de alcance!
+      Boa sorte! \u2013 Phinneas sai voando e come\xE7a a batalha."

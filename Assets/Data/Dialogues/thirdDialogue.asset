@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436eb30709f01104ebd4f7ecbaa45377, type: 3}
+  m_Name: thirdDialogue
+  m_EditorClassIdentifier: 
+  dialogueContent:
+  - characterImage: {fileID: 0}
+    characterName: Ambrose
+    characterSpeech: "Ent\xE3o nos reencontramos menino assustado, voc\xEA ainda
+      anda fazendo xixi nas cal\xE7as de tanto medo? HAHAHAHAAHA"
+  - characterImage: {fileID: 0}
+    characterName: Alatar
+    characterSpeech: Eu, eu , eu ....
+  - characterImage: {fileID: 0}
+    characterName: Alatar
+    characterSpeech: " N\xE3o sou como antes! Eu vou vingar meu pai e pegar meu precioso
+      Nerinho de volta!"
+  - characterImage: {fileID: 0}
+    characterName: Ambrose
+    characterSpeech: "Ent\xE3o me mostre o que pode fazer!"

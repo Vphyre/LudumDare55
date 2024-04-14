@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,21 +8,21 @@ public class CollisionDetector : MonoBehaviour
     public UnityEvent onCollisionStay;
     public UnityEvent onCollisionExit;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag(targetTag))
         {
             onCollisionEnter.Invoke();
         }
     }
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag(targetTag))
         {
             onCollisionStay.Invoke();
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag(targetTag))
         {

@@ -3,33 +3,40 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public Transform[] spawnPoints; // Pontos de spawn
-    public GameObject enemyPrefab; // Prefab do inimigo
-    public float spawnInterval = 1.0f; // Intervalo de spawn
-    public bool isRandom = true; // Se o spawn é aleatório ou não
+    [SerializeField] private Transform[] _spawnPoints; // Pontos de spawn
+    [SerializeField] private GameObject[] _enemyPrefabs; // Prefab do inimigo
+    [SerializeField] private float _spawnInterval = 1.0f; // Intervalo de spawn
+    [SerializeField] private bool _isRandom = true; // Se o spawn é aleatório ou não
+    [SerializeField] private bool _stopSpawn = false;
 
     private void Start()
     {
         // Inicia a Coroutine de spawn
         StartCoroutine(SpawnEnemies());
     }
+    public void SetStopSpawn(bool value)
+    {
+        _stopSpawn = value;
+    }
+    
 
     IEnumerator SpawnEnemies()
     {
         while (true)
         {
-            if (isRandom)
+            if (_isRandom && _stopSpawn == false)
             {
+                int randomIndex = Random.Range(0, _spawnPoints.Length);
                 // Escolhe um ponto de spawn aleatório
-                Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+                Transform spawnPoint = _spawnPoints[randomIndex];
 
                 // Cria um novo inimigo no ponto de spawn
-                GameObject newEnemy = Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+                GameObject newEnemy = Instantiate(_enemyPrefabs[randomIndex], spawnPoint.position, spawnPoint.rotation);
                 newEnemy.SetActive(true);
             }
 
             // Aguarda o intervalo de spawn antes de continuar o loop
-            yield return new WaitForSeconds(spawnInterval);
+            yield return new WaitForSeconds(_spawnInterval);
         }
     }
 }

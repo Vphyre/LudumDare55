@@ -8,6 +8,7 @@ public class KeyBehaviour : MonoBehaviour
     [SerializeField] private float _actionTime = 0.25f;
     public UnityEvent OnKeyPressed;
     public UnityEvent OnKeyPressedEnds;
+    public bool damage = false;
     public void KeyAction()
     {
         OnKeyPressed.Invoke();
@@ -15,7 +16,19 @@ public class KeyBehaviour : MonoBehaviour
     }
     public void EndsAction()
     {
+        if(damage)
+        {
+           
+        }
+        else
+        {
+
+        }
+        
         OnKeyPressedEnds.Invoke();
     }
-
+    public void Correct()
+    {
+        damage = true;
+    }
 }

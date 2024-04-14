@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Boss : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Boss : MonoBehaviour
     [SerializeField] private float damageAmount = 10;
     [SerializeField] private bool isVulnerable = false;
     [SerializeField] private ElementalColor currentColor;
+    public UnityEvent OnPlayerDamage;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +53,7 @@ public class Boss : MonoBehaviour
 
     private void ApplyDamage()
     {
+        OnPlayerDamage.Invoke();
         Debug.Log("Aplicou " + damageAmount + " ao jogador!");
     }
 

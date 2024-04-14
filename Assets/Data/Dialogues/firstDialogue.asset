@@ -36,6 +36,6 @@ MonoBehaviour:
       usada!"
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Cuidado, magias poderosas em lugares fechados podem fazer tudo
+    characterSpeech: Cuidado, magias poderosas em lugares fechados podem fazer tudo
       desabar ou acertar a gente, espere eles chegarem no lugar certo de alcance!
-      Boa sorte! \u2013 Phinneas sai voando e come\xE7a a batalha."
+      Boa sorte!

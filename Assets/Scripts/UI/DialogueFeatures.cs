@@ -9,7 +9,7 @@ public class DialogueFeatures : MonoBehaviour
     [SerializeField] private TMP_Text characterName;
     [SerializeField] private TMP_Text characterSpeech;
     [SerializeField] private Image characterImage;
-    public CharacterDialogue content;
+    [SerializeField] private CharacterDialogue content;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class DialogueFeatures : MonoBehaviour
 
     private IEnumerator MoveThroughDialogue()
     {
-        Debug.Log(content.dialogueContent.Length);
+        Time.timeScale = 0;
 
         for (int i = 0; i < content.dialogueContent.Length; i++)
         {
@@ -31,6 +31,7 @@ public class DialogueFeatures : MonoBehaviour
             yield return null;
         }
 
+        Time.timeScale = 1;
         dialogueBox.SetActive(false);
     }
 }

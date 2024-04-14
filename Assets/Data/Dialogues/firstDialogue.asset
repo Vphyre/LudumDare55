@@ -15,27 +15,28 @@ MonoBehaviour:
   dialogueContent:
   - characterImage: {fileID: 0}
     characterName: Ambrose
-    characterSpeech: "QUEM SE ATREVE A ENTRAR NO DOMINO DO GRANDE AMBROSE \u201CO
-      IMORTAL\u201D?"
+    characterSpeech: WHO DARES ENTERING AMBROSE'S DOMAIN?
+  - characterImage: {fileID: 0}
+    characterName: Ambrose
+    characterSpeech: ' I''M THE GREAT AMBROSE "THE IMMORTAL"'
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Olha ali mestre! Pelo jeito n\xE3o teremos que enfrentar somente
-      os magos, mas seus aliados tamb\xE9m! Cuidado!"
+    characterSpeech: Look there, master! Apparently, we won't need to face only the
+      wizard, but their allies as well! Take care!
   - characterImage: {fileID: 0}
     characterName: Lazar
-    characterSpeech: "HAHAHAHA! Eu Lazar! Vou derrotar voc\xEAs!"
+    characterSpeech: "HAHAHAHA! I\u2019m Lazar and I'm going to defeat you!"
   - characterImage: {fileID: 0}
     characterName: Alatar
-    characterSpeech: "Eita! Esse cara est\xE1 mais pra um LAZARento ! V\xE1 se esconder
-      Phinn, eu cuido disso!"
+    characterSpeech: Holy shi**! This situation is bad, but this guy is just a noisy
+      one! Go hide yourself Phinn, I'll take care of this!
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Se prepare Mestre Alatar! S\xE3o monstros elementais, voc\xEA
-      ter\xE1 que lan\xE7ar a magia do elemento deles para poder derrot\xE1-los!
-      Mas parece que ser\xE1 f\xE1cil, as cores indicam o tipo de magia que ser\xE1
-      usada!"
+    characterSpeech: Get ready Master! They are elemental monsters, you'll have to
+      cast the correct elemental magic to defeat them! But it looks like it'll be
+      easy, the color indicates the type of magic that needs to be used!
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: Cuidado, magias poderosas em lugares fechados podem fazer tudo
-      desabar ou acertar a gente, espere eles chegarem no lugar certo de alcance!
-      Boa sorte!
+    characterSpeech: So be careful. Powerful magic in closed places can make everything
+      collapse or hit us, wait for them to reach the right place and get them! Good
+      luck!

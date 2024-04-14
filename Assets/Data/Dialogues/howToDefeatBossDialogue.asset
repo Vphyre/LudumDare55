@@ -15,12 +15,12 @@ MonoBehaviour:
   dialogueContent:
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: Hey MESTRE, MESTRE! OLHE!
+    characterSpeech: Hey MASTER, MASTER! LOOK THERE!
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Parece que ele est\xE1 cansando de tempos em tempos, est\xE1
-      at\xE9 de outra cor e est\xE1 ai uma chance!"
+    characterSpeech: It seems he's getting tired from time to time, he's even with
+      a different color now, and we have a chance!
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Use dessa abertura para bater diretamente nele! Use uma magia
-      da mesma cor que ele est\xE1 emanando! Acho que pode dar certo!"
+    characterSpeech: Use this opening to hit him directly! Use the magic of the same
+      color he is emanating! I think it could work!

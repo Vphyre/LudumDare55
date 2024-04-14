@@ -15,15 +15,15 @@ MonoBehaviour:
   dialogueContent:
   - characterImage: {fileID: 0}
     characterName: Ambrose
-    characterSpeech: "Ent\xE3o nos reencontramos menino assustado, voc\xEA ainda
-      anda fazendo xixi nas cal\xE7as de tanto medo? HAHAHAHAAHA"
+    characterSpeech: So, we meet again scared boy, are you still peeing your pants
+      because you're scared? HAHAHAHAAHAH!
   - characterImage: {fileID: 0}
     characterName: Alatar
-    characterSpeech: Eu, eu , eu ....
+    characterSpeech: I, I'm, I....
   - characterImage: {fileID: 0}
     characterName: Alatar
-    characterSpeech: " N\xE3o sou como antes! Eu vou vingar meu pai e pegar meu precioso
-      Nerinho de volta!"
+    characterSpeech: I'm not like before! I'm going to avenge my father and get my
+      precious little Nero again
   - characterImage: {fileID: 0}
     characterName: Ambrose
-    characterSpeech: "Ent\xE3o me mostre o que pode fazer!"
+    characterSpeech: So show me what you can do!

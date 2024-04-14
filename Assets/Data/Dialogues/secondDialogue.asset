@@ -15,20 +15,21 @@ MonoBehaviour:
   dialogueContent:
   - characterImage: {fileID: 0}
     characterName: Jafar
-    characterSpeech: "Ainda n\xE3o acabou invasor! Eu Jafar, sou seu inimigo agora!"
+    characterSpeech: "It's not over yet, invader! I\u2019m Jafar and I\u2019m your
+      enemy now!"
   - characterImage: {fileID: 0}
     characterName: Alatar
-    characterSpeech: "JAFAR? Acho que seu mestre anda tendo muito papo de hist\xF3ria
-      de princesa hein, \xE9 cada nome! HAHAHAHAHA"
+    characterSpeech: "JAFAR? I think your master is having too much princess stories!
+      It\u2019s a worse name every time! Hahahahahaha!"
   - characterImage: {fileID: 0}
     characterName: Jafar
-    characterSpeech: ERRRR vai se arrepender!
+    characterSpeech: ERRRR you will pay for it!
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: "Mestre, esse ai parece ser mais forte e r\xE1pido que o outro."
+    characterSpeech: Master, this one seems to be stronger and faster than the other.
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: Repita o processo e a gente ganha mais essa!
+    characterSpeech: ' Repeat the process and we''ll win this fight one more time!'
   - characterImage: {fileID: 0}
     characterName: Phinn
-    characterSpeech: Cuidado e Boa sorte!
+    characterSpeech: Be careful and good luck!

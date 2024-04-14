@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private float maxHp = 100;
     [SerializeField] private float currentHp;
-    [SerializeField] private int damageAmount;
+    [SerializeField] private int damageAmount = 10;
 
     // Start is called before the first frame update
     void Start()

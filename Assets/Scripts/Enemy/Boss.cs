@@ -60,7 +60,7 @@ public class Boss : MonoBehaviour
         {
             currentHp -= damage;
 
-            if (currentHp.CompareTo(0) < 0)
+            if (currentHp.CompareTo(0) <= 0)
             {
                 Debug.Log("Stop spawn!");
                 boss.SetActive(false);

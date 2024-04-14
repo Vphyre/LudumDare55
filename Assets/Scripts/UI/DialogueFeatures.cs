@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogueFeatures : MonoBehaviour
@@ -10,6 +11,8 @@ public class DialogueFeatures : MonoBehaviour
     [SerializeField] private TMP_Text characterSpeech;
     [SerializeField] private Image characterImage;
     [SerializeField] private CharacterDialogue content;
+
+    public UnityEvent onFinish;
 
     private void Start()
     {
@@ -32,6 +35,7 @@ public class DialogueFeatures : MonoBehaviour
         }
 
         Time.timeScale = 1;
+        onFinish.Invoke();
         dialogueBox.SetActive(false);
     }
 }

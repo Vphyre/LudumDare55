@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: startingDialogueThirdBoss
   m_EditorClassIdentifier: 
   dialogueContent:
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
     characterName: Ambrose
     characterSpeech: So we meet again, Alatar! Still wetting the bed? HAHAHAHAHAHAH!
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
     characterName: Alatar
     characterSpeech: I... I... don't do that anymore! I will defeat you and reclaim
       my precious Nero. I'll teach you not to steal anyone's ducks!
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 2b36cc2b558763542927de0094285973, type: 3}
     characterName: Phinneas
     characterSpeech: Master, let's show him who's boss!
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
     characterName: Ambrose
     characterSpeech: Show me what you've got!

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: finishingDialogueThirdBoss
   m_EditorClassIdentifier: 
   dialogueContent:
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
     characterName: Ambrose
     characterSpeech: No! This can't be! AHHHHHHHH!

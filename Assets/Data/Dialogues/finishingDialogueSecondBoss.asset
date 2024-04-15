@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: finishingDialogueSecondBoss
   m_EditorClassIdentifier: 
   dialogueContent:
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 2b36cc2b558763542927de0094285973, type: 3}
     characterName: Phinneas
     characterSpeech: Let's go, master! We're almost there!

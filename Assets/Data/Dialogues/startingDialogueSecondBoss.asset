@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: startingDialogueSecondBoss
   m_EditorClassIdentifier: 
   dialogueContent:
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 0de0a10308f0b5c4fafd55d978b705f1, type: 3}
     characterName: Jafar
     characterSpeech: It's not over yet, intruder! I, Jafar, will be your enemy!
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: 2b36cc2b558763542927de0094285973, type: 3}
     characterName: Phinneas
     characterSpeech: Master, this one seems stronger and faster than the other; be
       careful!
-  - characterImage: {fileID: 0}
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
     characterName: Alatar
     characterSpeech: Don't worry, Phinn! This pile of bones is no match for me!

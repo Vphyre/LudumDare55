@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436eb30709f01104ebd4f7ecbaa45377, type: 3}
+  m_Name: introDialogue
+  m_EditorClassIdentifier: 
+  dialogueContent:
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: It was a typical day in the vast region of Everone. Alatar "The
+      White" awakened peacefully in his chambers atop the tallest tower of the city's
+      finest castle.
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: "As a mage of great renown, no one dared challenge him, so it
+      would be just another peaceful day\u2014or so he thought..."
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: 'Alatar harbored a great secret; he was a fanatic rubber duck
+      collector. His collection was vast, with an entire room in the castle dedicated
+      solely to this hobby of the powerful mage. '
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: 'However, on the most solemn pedestal, in the most prominent
+      place, rested the most important item in his collection: his first acquisition,
+      the duck named Nero.'
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: Alatar and Nero had been inseparable since childhood. So on
+      that fateful day, upon entering his treasure room
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: Aly, as he was known in the city, saw Nero's dome shattered
+      on the ground, and his precious friend was nowhere to be found.
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: 'Alatar then heard a familiar malevolent laugh emanating from
+      a long-abandoned dungeon. Aly knew it was his arch-nemesis, the Red Mage: Ambrose,
+      the Bald.'
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: He prepared himself, wearing his battle pajamas and summoning
+      his companion Phinneas to aid him in his adventure.
+  - characterImage: {fileID: 21300000, guid: a81103c412d50284a8be58fb23d62f80, type: 3}
+    characterName: Alatar
+    characterSpeech: 'Together, they had a mission to accomplish: to rescue his duck
+      Nero before it was too late...'

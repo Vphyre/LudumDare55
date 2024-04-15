@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerAttack : MonoBehaviour
     public bool CanAttack {get {return _canAttack;}}
     [SerializeField] private GameObject _attackPrefab;
     [SerializeField] private Transform spawnPoint;
+    public UnityEvent OnAttack;
 
     public void Attack()
     {
@@ -15,6 +17,7 @@ public class PlayerAttack : MonoBehaviour
         {
             GameObject newEnemy = Instantiate(_attackPrefab, spawnPoint.position, spawnPoint.rotation);
             newEnemy.SetActive(true);
+            OnAttack.Invoke();
         }
     }
     public void SetCanAttack(bool value)

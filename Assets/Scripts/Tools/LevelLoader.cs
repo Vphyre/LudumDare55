@@ -9,7 +9,6 @@ public class LevelLoader : MonoBehaviour
 {
     public UnityEvent OnFinishLoad;
     public UnityEvent OnLoad;
-
     [SerializeField] private GameObject _loadingScreen;
     [SerializeField] private GameObject _fadeScreen;
     [SerializeField] private float _fadeTime;

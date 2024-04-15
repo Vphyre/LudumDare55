@@ -19,7 +19,6 @@ public class EnemySpawner : MonoBehaviour
         _stopSpawn = value;
     }
 
-
     IEnumerator SpawnEnemies()
     {
         while (true)
@@ -43,5 +42,9 @@ public class EnemySpawner : MonoBehaviour
         // Cria um novo inimigo no ponto de spawn
         GameObject newEnemy = Instantiate(_enemyPrefabs[randomIndex], spawnPoint.position, spawnPoint.rotation);
         newEnemy.SetActive(true);
+    }
+    public void SetSpawnInterval(float value)
+    {
+        _spawnInterval = value;
     }
 }

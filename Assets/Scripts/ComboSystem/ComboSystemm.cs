@@ -33,7 +33,7 @@ public class ComboSystemm : MonoBehaviour
         else
         {
             _comboCount = 0;
-            _negativeCondition = true;
+            _negativeCondition = false;
         }
         VerifyCombo();
     }

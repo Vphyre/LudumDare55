@@ -1191,6 +1191,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5a70c0318ff3b9345821ff434810605f,
         type: 3}
+    - target: {fileID: 1700240933251975174, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
+        type: 3}
+      propertyPath: m_text
+      value: 'linkedin: @guilherme-tonelotti'
+      objectReference: {fileID: 0}
     - target: {fileID: 2497277234599778539, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1294,7 +1299,12 @@ PrefabInstance:
     - target: {fileID: 3815927162372754443, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_text
-      value: Guilherme T
+      value: Guilherme Tonelotti TonezeraBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554229324499781514, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
+        type: 3}
+      propertyPath: m_text
+      value: Developer
       objectReference: {fileID: 0}
     - target: {fileID: 7066374471048307292, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}

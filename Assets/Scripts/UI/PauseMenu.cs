@@ -6,27 +6,34 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject menu;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
 
     }
+    private void OnEnable()
+    {
+        PauseGame();
+    }
 
     public void PauseGame()
     {
-        Time.timeScale = 0;
+        SetTimeScale(0);
         menu.SetActive(true);
     }
 
     public void ResumeGame()
     {
-        Time.timeScale = 1;
+        SetTimeScale(1);
         menu.SetActive(false);
+    }
+    public void SetTimeScale(float value)
+    {
+        Time.timeScale = value;
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Saiu do jogo");
     }
 }

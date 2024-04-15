@@ -1339,7 +1339,7 @@ PrefabInstance:
     - target: {fileID: 1700240933251975174, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_text
-      value: Contact
+      value: 'X: @TrueRedTFox'
       objectReference: {fileID: 0}
     - target: {fileID: 2497277234599778539, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
@@ -1444,12 +1444,12 @@ PrefabInstance:
     - target: {fileID: 3815927162372754443, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_text
-      value: Guilherme
+      value: Guilherme "RedTFox" Tartari
       objectReference: {fileID: 0}
     - target: {fileID: 4554229324499781514, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_text
-      value: Function
+      value: Game Designer
       objectReference: {fileID: 0}
     - target: {fileID: 4780475474741463996, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}

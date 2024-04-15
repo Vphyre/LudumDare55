@@ -16,3 +16,12 @@ MonoBehaviour:
   - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
     characterName: Ambrose
     characterSpeech: No! This can't be! AHHHHHHHH!
+  - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
+    characterName: Ambrose
+    characterSpeech: What a pity, you may have defeated me, but that ugly duckling
+      is not in this dungeon.
+  - characterImage: {fileID: 21300000, guid: 796bdb40d272e9542b6d17141c0d75dd, type: 3}
+    characterName: Ambrose
+    characterSpeech: "Good luck finding him elsewhere, hahahahahaah \u2013 Ambrose
+      faints, and the place starts to collapse. Alatar and Phinn have to hurry out,
+      desperate to try to find where to rescue the lost duck."

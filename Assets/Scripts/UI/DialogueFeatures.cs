@@ -14,7 +14,7 @@ public class DialogueFeatures : MonoBehaviour
 
     public UnityEvent onFinish;
 
-    private void Start()
+    private void Awake()
     {
         StartCoroutine(MoveThroughDialogue());
     }

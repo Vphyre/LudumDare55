@@ -10,20 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 436eb30709f01104ebd4f7ecbaa45377, type: 3}
-  m_Name: thirdDialogue
+  m_Name: startingDialogueSecondBoss
   m_EditorClassIdentifier: 
   dialogueContent:
   - characterImage: {fileID: 0}
-    characterName: Ambrose
-    characterSpeech: So, we meet again scared boy, are you still peeing your pants
-      because you're scared? HAHAHAHAAHAH!
+    characterName: Jafar
+    characterSpeech: It's not over yet, intruder! I, Jafar, will be your enemy!
+  - characterImage: {fileID: 0}
+    characterName: Phinneas
+    characterSpeech: Master, this one seems stronger and faster than the other; be
+      careful!
   - characterImage: {fileID: 0}
     characterName: Alatar
-    characterSpeech: I, I'm, I....
-  - characterImage: {fileID: 0}
-    characterName: Alatar
-    characterSpeech: I'm not like before! I'm going to avenge my father and get my
-      precious little Nero again
-  - characterImage: {fileID: 0}
-    characterName: Ambrose
-    characterSpeech: So show me what you can do!
+    characterSpeech: Don't worry, Phinn! This pile of bones is no match for me!

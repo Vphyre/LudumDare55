@@ -10,13 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 436eb30709f01104ebd4f7ecbaa45377, type: 3}
-  m_Name: howToDefeatBossDialogue
+  m_Name: finishingDialogueFirstBoss
   m_EditorClassIdentifier: 
   dialogueContent:
   - characterImage: {fileID: 0}
-    characterName: Phinneas
-    characterSpeech: MASTER, MASTER, LOOK!
-  - characterImage: {fileID: 0}
-    characterName: Phinneas
-    characterSpeech: It seems it gets tired after a while; it's even a different
-      color now! Use a spell of the same color it's emanating! I think it might work!
+    characterName: Alatar
+    characterSpeech: What else will I have to face to save Nero? Walking teacups?

@@ -5,8 +5,9 @@ using UnityEngine.Events;
 public class Boss : MonoBehaviour
 {
     [SerializeField] private GameObject boss;
-    [SerializeField] private GameObject startingDialog;
-    [SerializeField] private GameObject battleDialog;
+    [SerializeField] private GameObject startingDialogue;
+    [SerializeField] private GameObject battleDialogue;
+    [SerializeField] private GameObject finishDialogue;
     [SerializeField] private float currentHp = 100;
     [SerializeField] private float maxHp = 100;
     [SerializeField] private int timeSummoning = 30;
@@ -24,15 +25,20 @@ public class Boss : MonoBehaviour
         currentHp = maxHp;
         battleDialogShowed = true;
 
-        if (battleDialog != null)
+        if (battleDialogue != null)
         {
-            battleDialog.SetActive(false);
+            battleDialogue.SetActive(false);
             battleDialogShowed = false;
         }
 
-        if (startingDialog != null)
+        if (startingDialogue != null)
         {
-            startingDialog.SetActive(true);
+            startingDialogue.SetActive(true);
+        }
+
+        if (finishDialogue != null)
+        {
+            finishDialogue.SetActive(false);
         }
 
         Invoke("BecomeVulnerable", timeSummoning);
@@ -55,9 +61,9 @@ public class Boss : MonoBehaviour
 
     private void BecomeVulnerable()
     {
-        if (!battleDialogShowed && battleDialog != null)
+        if (!battleDialogShowed && battleDialogue != null)
         {
-            battleDialog.SetActive(true);
+            battleDialogue.SetActive(true);
             battleDialogShowed = true;
         }
 
@@ -88,7 +94,7 @@ public class Boss : MonoBehaviour
 
             if (currentHp.CompareTo(0) <= 0)
             {
-                Debug.Log("Stop spawn!");
+                finishDialogue.SetActive(true);
                 boss.SetActive(false);
             }
 

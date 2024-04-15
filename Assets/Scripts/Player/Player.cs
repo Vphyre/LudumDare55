@@ -22,13 +22,11 @@ public class Player : MonoBehaviour
 
     public void ReceiveDamage(int damage)
     {
-        Debug.Log("Tomou dano");
         currentHp -= damage;
 
         if (currentHp.CompareTo(0) <= 0)
         {
             player.SetActive(false);
-            Debug.Log("Mostrar tela de game over");
             OnGameOver.Invoke();
         }
     }

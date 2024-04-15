@@ -11,6 +11,12 @@ public class KeyBehaviour : MonoBehaviour
     public UnityEvent OnCorrectKeyPressed;
     public UnityEvent OnWrongKeyPressed;
     private bool _hitCorrectKey = false;
+    private PlayerAttack playerAttack;
+
+    void Start()
+    {
+        playerAttack = gameObject.GetComponent<PlayerAttack>();
+    }
     public void KeyAction()
     {
         OnKeyPressed.Invoke();
@@ -18,12 +24,12 @@ public class KeyBehaviour : MonoBehaviour
     }
     public void EndsAction()
     {
-        if (_hitCorrectKey == false)
-        { 
+        if (_hitCorrectKey == false && playerAttack.CanAttack == false)
+        {
             OnWrongKeyPressed.Invoke();
-            
+
         }
-        else
+        else if (_hitCorrectKey)
         {
             OnCorrectKeyPressed.Invoke();
         }

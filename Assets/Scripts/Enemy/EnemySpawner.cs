@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
     {
         _stopSpawn = value;
     }
-    
+
 
     IEnumerator SpawnEnemies()
     {
@@ -27,16 +27,21 @@ public class EnemySpawner : MonoBehaviour
             if (_isRandom && _stopSpawn == false)
             {
                 int randomIndex = Random.Range(0, _spawnPoints.Length);
-                // Escolhe um ponto de spawn aleatório
-                Transform spawnPoint = _spawnPoints[randomIndex];
-
-                // Cria um novo inimigo no ponto de spawn
-                GameObject newEnemy = Instantiate(_enemyPrefabs[randomIndex], spawnPoint.position, spawnPoint.rotation);
-                newEnemy.SetActive(true);
+                Spawn(randomIndex);
             }
 
             // Aguarda o intervalo de spawn antes de continuar o loop
             yield return new WaitForSeconds(_spawnInterval);
         }
+    }
+    public void Spawn(int randomIndex)
+    {
+        
+        // Escolhe um ponto de spawn aleatório
+        Transform spawnPoint = _spawnPoints[randomIndex];
+
+        // Cria um novo inimigo no ponto de spawn
+        GameObject newEnemy = Instantiate(_enemyPrefabs[randomIndex], spawnPoint.position, spawnPoint.rotation);
+        newEnemy.SetActive(true);
     }
 }

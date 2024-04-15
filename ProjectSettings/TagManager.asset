@@ -12,6 +12,7 @@ TagManager:
   - Green
   - Blue
   - Orange
+  - Boss
   layers:
   - Default
   - TransparentFX

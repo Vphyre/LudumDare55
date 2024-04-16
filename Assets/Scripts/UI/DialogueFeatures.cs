@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class DialogueFeatures : MonoBehaviour
@@ -29,7 +30,7 @@ public class DialogueFeatures : MonoBehaviour
             characterSpeech.text = content.dialogueContent[i].characterSpeech;
             characterImage.sprite = content.dialogueContent[i].characterImage;
 
-            yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+            yield return new WaitUntil(() => Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return));
 
             yield return null;
         }

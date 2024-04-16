@@ -140,7 +140,7 @@ PrefabInstance:
     - target: {fileID: 1700240933251975174, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}
       propertyPath: m_text
-      value: 'IG: @nadatakashe2.0'
+      value: 'IG: @nandatakashe2.0'
       objectReference: {fileID: 0}
     - target: {fileID: 2497277234599778539, guid: 4fcdb67e3a8f0fc44aa804ffbdf82cb3,
         type: 3}

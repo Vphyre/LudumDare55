@@ -60,6 +60,7 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(_minLoadTime);
         AsyncOperation operation = SceneManager.LoadSceneAsync(_sceneName);
         yield return null;
+        
     }
 
     private IEnumerator LoadAsync(string levelName)
